@@ -3,6 +3,7 @@
 	"displayName": "Remote tmux",
 	"description": "Open up tmux on a remote host",
 	"version": "0.0.1",
+	"publisher": "KennyDo",
 	"engines": {
 		"vscode": "^1.32.0"
 	},
@@ -42,6 +43,11 @@
 			}
 		}
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kennydo/vscode-remote-tmux.git"
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
