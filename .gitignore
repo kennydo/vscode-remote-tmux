@@ -1,5 +1,9 @@
 out
 
+# VS Code extension stuff
+.vscode-test/
+*.vsix
+
 # Logs
 logs
 *.log
