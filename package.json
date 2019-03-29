@@ -50,6 +50,11 @@
 			"description": "Azure Pipeline"
 		}
 	],
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#a6c5f1",
+		"theme": "dark"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kennydo/vscode-remote-tmux.git"
