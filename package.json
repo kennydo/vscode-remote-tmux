@@ -53,7 +53,7 @@
 	"icon": "images/icon.png",
 	"galleryBanner": {
 		"color": "#a6c5f1",
-		"theme": "dark"
+		"theme": "light"
 	},
 	"repository": {
 		"type": "git",
