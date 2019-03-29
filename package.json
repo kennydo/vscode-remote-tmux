@@ -43,6 +43,13 @@
 			}
 		}
 	},
+	"badges": [
+		{
+			"url": "https://dev.azure.com/kennydo/vscode-remote-tmux/_apis/build/status/kennydo.vscode-remote-tmux?branchName=master",
+			"href": "https://dev.azure.com/kennydo/vscode-remote-tmux/_build",
+			"description": "Azure Pipeline"
+		}
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/kennydo/vscode-remote-tmux.git"
