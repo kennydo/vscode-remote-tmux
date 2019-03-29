@@ -12,6 +12,11 @@
 	"activationEvents": [
 		"onCommand:remoteTmux.getOrCreateTerminal"
 	],
+	"keywords": [
+		"tmux",
+		"ssh",
+		"devbox"
+	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
