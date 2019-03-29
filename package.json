@@ -23,7 +23,8 @@
 		"commands": [
 			{
 				"command": "remoteTmux.getOrCreateTerminal",
-				"title": "Remote tmux: Create or Attach tmux Session"
+				"title": "Create or Attach tmux Session",
+				"category": "Remote tmux"
 			}
 		],
 		"configuration": {
@@ -33,12 +34,12 @@
 				"remoteTmux.sshHost": {
 					"type": "string",
 					"default": "devbox",
-					"markdownDescription": "The SSH host to SSH to. You'll probably want an entry for it in your `~/.ssh/config` file."
+					"description": "The SSH host to SSH to. You'll probably want an entry for it in your `~/.ssh/config` file."
 				},
 				"remoteTmux.tmuxSessionName": {
 					"type": "string",
 					"default": "vscode",
-					"markdownDescription": "The tmux session name to create or attach to."
+					"description": "The tmux session name to create or attach to."
 				}
 			}
 		}
