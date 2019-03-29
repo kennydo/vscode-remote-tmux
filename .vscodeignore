@@ -1,10 +1,18 @@
 .vscode/**
 .vscode-test/**
-out/test/**
+out/**
 src/**
 .gitignore
-vsc-extension-quickstart.md
+webpack.config.js
+node_modules/**
 **/tsconfig.json
 **/tslint.json
 **/*.map
 **/*.ts
+
+# Python stuff
+venv/**
+.activate.sh
+.deactivate.sh
+.pre-commit-config.yaml
+requirements-dev.txt

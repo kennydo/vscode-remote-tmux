@@ -1,4 +1,6 @@
 out
+dist
+venv
 
 # VS Code extension stuff
 .vscode-test/
